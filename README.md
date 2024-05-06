@@ -22,3 +22,32 @@ image class icone-bacia - linha 195
  https://codepen.io/sosuke/pen/Pjoqqp
 
  http://petropet.uff.br/voce-conhece-as-principais-bacias-sedimentares/
+
+max - 2560 {
+.duvida{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+max - 1440 {
+.duvida{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+max-1024 {
+ .duvida{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+max - 820 {
+.duvida{
+        width: 65px;
+        height: 65px;
+    }
+}
+
