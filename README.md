@@ -51,3 +51,74 @@ max - 820 {
     }
 }
 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt',
+            includedLanguages: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt',
+            includedLanguages: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+
+<div id="google_translate_element"></div>
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor de Idiomas</title>
+</head>
+<body>
+    <h1>Meu Site</h1>
+    
+    <!-- Botão de alternância de idioma -->
+    <label for="languageSwitch">Traduzir para Inglês:</label>
+    <input type="checkbox" id="languageSwitch">
+
+    <!-- Conteúdo do site -->
+    <div id="content">
+        <p>Bem-vindo ao meu site! Este é um exemplo de conteúdo em português.</p>
+        <!-- Adicione mais conteúdo aqui -->
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+// Função para alternar entre português e inglês
+function toggleLanguage() {
+    var languageSwitch = document.getElementById("languageSwitch");
+    var content = document.getElementById("content");
+
+    if (languageSwitch.checked) {
+        // Traduzir para inglês
+        content.innerHTML = content.innerHTML.replace(/Bem-vindo ao meu site! Este é um exemplo de conteúdo em português./g, "Welcome to my website! This is an example of content in English.");
+        // Adicione mais substituições de texto conforme necessário para traduzir outros elementos do site
+    } else {
+        // Restaurar para português
+        content.innerHTML = content.innerHTML.replace(/Welcome to my website! This is an example of content in English./g, "Bem-vindo ao meu site! Este é um exemplo de conteúdo em português.");
+        // Adicione mais substituições de texto conforme necessário para restaurar outros elementos do site para o português
+    }
+}
+
+// Adicionar evento de mudança para o botão de alternância de idioma
+document.getElementById("languageSwitch").addEventListener("change", toggleLanguage);
+
+
