@@ -124,3 +124,20 @@ document.getElementById("languageSwitch").addEventListener("change", toggleLangu
 
 site dsa - olhar
 
+bugs
+
+header1 - no cabeçalho, o item Nossas Atividades - o link foi desativado, mudar o conteúdo e consequentemente o link
+
+barra de pesquisa - não está funcionando (por enquanto)
+
+mapa - desativar função que faz poço aparecer clicando em uma parte específica do mapa
+
+Botão switch Poços - aparece o poço, vc clica nele aparece o nome do poço e o símbolo indicando onde está, mas quando clica pra deixar de aparecer os poços, o símbolo e o nome do poço continua (além de que falta colocar as caractéristicas do mesmo pra aparecer no canto direito)
+
+Botão Switch Campos não está aparecendo nenhum campo, ou ícone que indique onde está
+
+Na filtragem - se colocar a opção mar, aparece o poço, e se após colocar a opção terra, continua aparecendo o poço no mar
+
+Os elementos selecionados - ainda não aparece a quantidade selecionada pelos botão switch
+
+
